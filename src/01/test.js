@@ -62,5 +62,3 @@ test('distanceToFirstVisitedTwice', (t) => {
     assert.end()
   })
 })
-
-test('distanceToFinalPosition')
