@@ -1,0 +1,23 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Frank Albenesius",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/",
+    "start": "babel-node src/index.js",
+    "test": "npm run lint && tape -r babel-register src/**/test.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "tape": "^4.6.3"
+  }
+}
