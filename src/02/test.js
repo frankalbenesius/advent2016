@@ -5,7 +5,7 @@ import {
   toDirections,
   traverseKeyPad,
   toSquareBathroomCode,
-  // toDiamondBathroomCode,
+  toDiamondBathroomCode,
 } from '.'
 
 test('parseInput', (t) => {
@@ -107,12 +107,12 @@ test('toSquareBathroomCode', (t) => {
   })
 })
 
-// test('toDiamondBathroomCode', (t) => {
-//   t.test('day 2 example 2', (assert) => {
-//     const input = 'ULL\nRRDDD\nLURDL\nUUUUD'
-//     const actual = toDiamondBathroomCode(input)
-//     const expected = '5DB3'
-//     assert.equal(actual, expected)
-//     assert.end()
-//   })
-// })
+test('toDiamondBathroomCode', (t) => {
+  t.test('day 2 example 2', (assert) => {
+    const input = 'ULL\nRRDDD\nLURDL\nUUUUD'
+    const actual = toDiamondBathroomCode(input)
+    const expected = '5DB3'
+    assert.equal(actual, expected)
+    assert.end()
+  })
+})
