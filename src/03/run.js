@@ -12,6 +12,6 @@ export default () => {
     }
     const solutionPart1 = solvePart1(data.toString().trim())
     const solutionPart2 = solvePart2(data.toString().trim())
-    console.log(`Day 02 | Part 1: ${solutionPart1} | Part 2: ${solutionPart2}`)
+    console.log(`Day 03 | Part 1: ${solutionPart1} | Part 2: ${solutionPart2}`)
   })
 }

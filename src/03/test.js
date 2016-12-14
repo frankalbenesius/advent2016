@@ -4,7 +4,6 @@ import {
   parseRawInputByColumn,
   isValidTriangle,
   solvePart1,
-  // solvePart2,
 } from '.'
 
 test('parseRawInputByRow', (t) => {
