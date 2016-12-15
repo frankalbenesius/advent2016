@@ -5,7 +5,6 @@ import {
   isRealRoom,
   toSectorSum,
   solvePart1,
-  solvePart2,
 } from '.'
 
 test('parseInput', (t) => {
