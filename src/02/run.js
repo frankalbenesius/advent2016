@@ -6,12 +6,8 @@ import {
 } from '.'
 
 export default () => {
-  fs.readFile('./src/02/input.txt', (err, data) => {
-    if (err) {
-      throw err
-    }
-    const part1 = toSquareBathroomCode(data.toString().trim())
-    const part2 = toDiamondBathroomCode(data.toString().trim())
-    console.log(`Day 02 | Part 1: ${part1} | Part 2: ${part2}`)
-  })
+  const file = fs.readFileSync('./src/02/input.txt')
+  const part1 = toSquareBathroomCode(file.toString().trim())
+  const part2 = toDiamondBathroomCode(file.toString().trim())
+  return [part1, part2]
 }
