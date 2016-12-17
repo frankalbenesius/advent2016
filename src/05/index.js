@@ -10,7 +10,6 @@ export const solvePart1 = (doorId) => {
     const hash = md5(hashable)
     if (hash.indexOf('00000') === 0) {
       const match = hash.charAt(5)
-      console.log('Match Found! Char:', match)
       password.push(match)
     }
     index += 1
@@ -28,7 +27,6 @@ export const solvePart2 = (doorId) => {
       const pos = hash.charAt(5)
       const char = hash.charAt(6)
       if (pos < 8 && password[pos] === '_') {
-        console.log(`Match Found! Char: ${char} Position: ${pos}`)
         password[pos] = char
       }
     }
