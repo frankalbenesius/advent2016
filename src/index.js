@@ -7,6 +7,7 @@ import run04 from './04/run'
 import run05 from './05/run'
 import run06 from './06/run'
 import run07 from './07/run'
+import run08 from './08/run'
 
 const puzzles = [
   run01,
@@ -16,6 +17,7 @@ const puzzles = [
   run05,
   run06,
   run07,
+  run08,
 ]
 
 const logSolution = (solver, i) => {
