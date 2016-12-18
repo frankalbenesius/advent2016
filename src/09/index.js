@@ -52,4 +52,4 @@ export const solvePart2 = (input) => {
 }
 
 // RETROSPECTIVE: recursion is WAY faster if you're not doing
-// string matching. turns out it works really well for simple math
+// string manipulation. turns out it works really well for simple math
